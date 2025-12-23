@@ -11,6 +11,8 @@ interface SurveyScreenProps {
 }
 
 const SurveyScreen: React.FC<SurveyScreenProps> = ({ onComplete, stats, onSFX, sfxAssets }) => {
+  console.log("SurveyScreen rendered");
+
   const [activePoint, setActivePoint] = useState<SurveyPoint | null>(null);
   const [collectedKeywords, setCollectedKeywords] = useState<string[]>([]);
   const [feedback, setFeedback] = useState<string | null>(null);

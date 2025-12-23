@@ -11,6 +11,8 @@ interface CongressScreenProps {
 }
 
 const CongressScreen: React.FC<CongressScreenProps> = ({ onComplete, stats, onSFX, sfxAssets }) => {
+  console.log("CongressScreen rendered");
+
   const [currentSessionIdx, setCurrentSessionIdx] = useState(0);
   const [choices, setChoices] = useState<SessionOption[]>([]);
   const [currentStats, setCurrentStats] = useState<Stats>(stats);

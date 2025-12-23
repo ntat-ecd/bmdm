@@ -8,6 +8,8 @@ interface ResultScreenProps {
 }
 
 const ResultScreen: React.FC<ResultScreenProps> = ({ stats, onViewTimeline }) => {
+  console.log("ResultScreen rendered");
+
   // Điều kiện thắng mới: Tất cả chỉ số phải từ 80 trở lên
   const isSuccess = stats.economy >= 80 && stats.people >= 80 && stats.stability >= 80;
   

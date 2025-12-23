@@ -14,11 +14,11 @@ import GlitchOverlay from './components/GlitchOverlay';
 // 1. NƠI FIX ÂM THANH: Khai báo tất cả tài nguyên tại đây
 const AUDIO_ASSETS = {
   BGM_INTRO: 'https://cdn.pixabay.com/audio/2022/03/10/audio_c369c73b0a.mp3',
-  BGM_SURVEY: 'https://cdn.pixabay.com/audio/2022/02/07/audio_65b3a3998b.mp3',
-  BGM_CONGRESS: 'https://cdn.pixabay.com/audio/2022/10/25/audio_108620e29b.mp3',
-  BGM_SUCCESS: 'https://cdn.pixabay.com/audio/2022/01/21/audio_317424168c.mp3',
-  BGM_FAIL: 'https://cdn.pixabay.com/audio/2021/08/09/audio_824647385a.mp3',
-  BGM_FUTURE: 'https://cdn.pixabay.com/audio/2022/03/24/audio_338a798533.mp3',
+  BGM_SURVEY: '/assets/BMG_1.mp3',
+  BGM_CONGRESS: '/assets/BMG_2.mp3',
+  BGM_SUCCESS: '/assets/BMG_3.mp3',
+  BGM_FAIL: '/assets/BMG_4.mp3',
+  BGM_FUTURE: '/assets/BMG_3.mp3',
   
   SFX_CLICK: 'https://cdn.pixabay.com/audio/2022/03/15/audio_50269f8263.mp3',
   SFX_COLLECT: 'https://cdn.pixabay.com/audio/2021/08/04/audio_062562479e.mp3',

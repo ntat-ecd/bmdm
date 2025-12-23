@@ -6,6 +6,8 @@ interface IntroScreenProps {
 }
 
 const IntroScreen: React.FC<IntroScreenProps> = ({ onStart }) => {
+  console.log("IntroScreen rendered");
+
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-black text-white p-4 md:p-12 text-center animate-fadeIn relative overflow-hidden">
       <div className="absolute inset-0 bg-red-900/10 pointer-events-none"></div>

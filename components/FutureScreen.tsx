@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 
 const FutureScreen: React.FC = () => {
+  console.log("FutureScreen rendered");
   const [progress, setProgress] = useState(0);
 
   const eras = [

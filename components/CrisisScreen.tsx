@@ -8,6 +8,8 @@ interface CrisisScreenProps {
 }
 
 const CrisisScreen: React.FC<CrisisScreenProps> = ({ onComplete }) => {
+  console.log("CrisisScreen rendered");
+
   const [collected, setCollected] = useState<string[]>([]);
   const [activeFact, setActiveFact] = useState<string | null>(null);
 
